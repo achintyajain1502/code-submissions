@@ -4,6 +4,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        for i in range(len(nums)):
-            if(nums.count(nums[i])==1):
-                return(nums[i])
+
+        x=0
+        for i in nums:
+            x^=i
+        return(x)
+
+
+        # for i in range(len(nums)):
+        #     if(nums.count(nums[i])==1):
+        #         return(nums[i])
