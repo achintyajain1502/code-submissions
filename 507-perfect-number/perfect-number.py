@@ -4,9 +4,9 @@ class Solution(object):
         :type num: int
         :rtype: bool
         """
-        s=1
         if(num==1):
             return(False)
+        s=1
         for i in range(2,int(math.sqrt(num))+1):
             if(num%i==0):
                 s+=i
