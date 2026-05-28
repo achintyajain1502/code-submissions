@@ -4,19 +4,11 @@ class Solution(object):
         :type title: str
         :rtype: str
         """
-        title=title.split(" ")
-        l=[]
-        for i in title:
-            # print i
-            if len(i)<=2:
-                # print True
-                l.append(i.lower())
-                # print i
+        l=title.split(" ")
+        for i in range(len(l)):
+            if(len(l[i])==1 or len(l[i])==2):
+                l[i]=l[i].lower()
             else:
-                # print False
-                l.append(i.title())
-        title=""
-        for i in l:
-            title=title +" "+ i
-        title=title.lstrip()
-        return title
+                l[i]=l[i].lower().title()
+        title=" ".join(l)
+        return(title)
