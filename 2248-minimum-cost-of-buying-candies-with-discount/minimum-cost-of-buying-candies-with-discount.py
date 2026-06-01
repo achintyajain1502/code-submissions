@@ -11,15 +11,5 @@ class Solution(object):
                 c+=cost[i]
         return c
 
-        # while(True):
-        #     if(max(cost)==None):
-        #         break
-        #     a=max(cost)
-        #     c+=a
-        #     cost.remove(a)
-        #     b=max(cost)
-        #     c+=b
-        #     cost.remove(b)
-        #     cost.remove(max(cost))
-        # print c
+        
         
