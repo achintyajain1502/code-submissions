@@ -6,7 +6,6 @@ class Solution(object):
         :rtype: int
         """
         c=0
-        k=0
         for i in range(num1,num2+1):
             for j in range(1,len(str(i))-1):
                 i=str(i)
