@@ -7,8 +7,6 @@ class Solution(object):
         """
         k=0
         l=0
-        s=list(s)
-        t=list(t)
         for i in s:
             k+=ord(i)
         for i in t:
