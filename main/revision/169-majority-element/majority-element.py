@@ -9,7 +9,7 @@ class Solution(object):
         for i in nums:
             if i not in k:
                 k.append(i)
-        for i,num in enumerate(k):
-            c.append(nums.count(num))
+        for i in k:
+            c.append(nums.count(i))
         index=c.index(max(c))
         return k[index]
