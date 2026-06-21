@@ -9,6 +9,6 @@ class Solution(object):
         k.sort()
         print k
         if len(k)%2!=0:
-            return k[len(k)/2]
+            return k[len(k)//2]
         else:
-            return (k[len(k)//2]+k[len(k)/2 -1])/2.0
+            return (k[len(k)//2]+k[len(k)//2 -1])/2.0
