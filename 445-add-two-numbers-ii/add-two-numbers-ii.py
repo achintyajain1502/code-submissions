@@ -18,7 +18,7 @@ class Solution(object):
         while l2:
             n2+=str(l2.val)
             l2=l2.next
-        k=list(str(int(n1)+int(n2)))
+        k=str(int(n1)+int(n2))
         dmy=ListNode(0)
         ptr=dmy
         for i in k:
