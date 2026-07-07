@@ -5,6 +5,8 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         """
+        nums1=list(set(nums1))
+        nums2=list(set(nums2))
         l=[]
         for i in nums1:
             if i in nums2:
