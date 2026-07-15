@@ -1,0 +1,1 @@
+<h2>kth-smallest-number-in-multiplication-table Notes</h2><hr>[ Time taken: 48m 14s ]
