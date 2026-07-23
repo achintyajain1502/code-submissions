@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        n=max(nums)
+        n=len(nums)
         if n==1 or n==2:
             return n
         else:
