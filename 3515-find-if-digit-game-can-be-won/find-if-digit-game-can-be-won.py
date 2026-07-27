@@ -7,7 +7,7 @@ class Solution(object):
         s1=0
         s2=0
         for i in nums:
-            if len(str(i))==2:
+            if 10<=i<=99:
                 s2+=i
             else:
                 s1+=i
